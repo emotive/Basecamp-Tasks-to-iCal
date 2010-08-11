@@ -1,0 +1,47 @@
+Basecamp Tasks to iCal Script
+
+This script allows Basecamp users to subscribe to their personal 
+and company tasks using and iCalendar feed.
+
+The script was originally designed by Hotchkiss Consulting
+http://hotchkissconsulting.net/2009/11/importing-basecamp-tasks-into-ical/
+
+It has been enhanced by emotive, llc
+http://www.emotivellc.com
+
+_________________________________________________________________
+
+INSTALL
+
+1) Download all of the files in the latest release
+2) Edit the config.inc file and enter the company-id for your organization
+3) Upload the files to any PHP capable host
+
+
+SUBSCRIBING
+
+There are two feeds available:
+
+1) A list of all of your company's tasks (alltasks.php)
+2) A list of just the tasks assigned to you (mytasks.php)
+
+
+Edit the URLs below with your basecamp prefix.  This is what comes before basecamphq.com
+ie. yourcompany.basecamphq.com would be entered as yourcompany
+
+Then enter your login and password 
+
+Your Tasks
+http://www.yoursite.com/mytasks.php?site=BASECAMPPREFIX&user=BASECAMPUSERNAME&password=BASECAMPPASSWORD
+
+All Tasks
+http://www.yoursite.com/mytasks.php?site=BASECAMPPREFIX&user=BASECAMPUSERNAME&password=BASECAMPPASSWORD
+
+
+FEATURES:
+
+* Direct link to view the task in Basecamp
+* 15 minute alarms for personal tasks
+* Retrieves due dates as set in Basecamp
+* Show task, todo list and project name
+* Works with Outlook, iCal, iPhone and any other program that can use the iCalendar format
