@@ -37,6 +37,10 @@ http://www.yoursite.com/mytasks.php?site=BASECAMPPREFIX&user=BASECAMPUSERNAME&pa
 All Tasks
 http://www.yoursite.com/mytasks.php?site=BASECAMPPREFIX&user=BASECAMPUSERNAME&password=BASECAMPPASSWORD
 
+Company Calendar (displays as daily events instead of to do items)
+http://www.yoursite.com/companycalendar.php?site=BASECAMPPREFIX&user=BASECAMPUSERNAME&password=BASECAMPPASSWORD
+
+
 
 FEATURES:
 
